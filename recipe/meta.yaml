@@ -1,5 +1,5 @@
 {% set name = "google-cloud-pubsublite" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-pubsublite-{{ version }}.tar.gz
-  sha256: 47b028f62cee51a0c7f8e6f1791a20546f968fd832a83a9128cd8ffa33413c11
+  sha256: fde56dbe694ded9815382f1da0480050013cbe67551121df51ed367eaea6d0ac
 
 build:
   noarch: python
@@ -19,12 +19,12 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - google-api-core >=1.32.0,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*
+    - python >=3.7
     - google-cloud-pubsub >=2.10.0,<3.0.0dev
     - grpcio >=1.38.1,<2.0.0dev
     - grpcio-status >=1.38.1,<2.0.0dev
     - overrides >=6.0.1,<7.0.0
-    - python >=3.7
+    - google-api-core >=1.33.2,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*
 
 test:
   imports:
@@ -36,10 +36,10 @@ test:
 
 about:
   home: https://github.com/googleapis/python-pubsublite
+  summary: Google Cloud Pubsublite API client library
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: Pub/Sub Lite API is designed to provide reliable, many-to-many, asynchronous messaging between applications.
 
 extra:
   recipe-maintainers:
