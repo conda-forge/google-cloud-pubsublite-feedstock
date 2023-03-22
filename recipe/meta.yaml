@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
+    - python >=3.8
     - pip
-    - python >=3.7
   run:
-    - python >=3.7
+    - python >=3.8
     - google-cloud-pubsub >=2.10.0,<3.0.0dev
     - grpcio >=1.38.1,<2.0.0dev
     - grpcio-status >=1.38.1,<2.0.0dev
