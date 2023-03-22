@@ -1,13 +1,13 @@
-About google-cloud-pubsublite
-=============================
+About google-cloud-pubsublite-feedstock
+=======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-pubsublite-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/googleapis/python-pubsublite
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-pubsublite-feedstock/blob/main/LICENSE.txt)
-
-Summary: Pub/Sub Lite API is designed to provide reliable, many-to-many, asynchronous messaging between applications.
+Summary: Google Cloud Pubsublite API client library
 
 Current build status
 ====================
