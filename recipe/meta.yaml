@@ -1,5 +1,5 @@
 {% set name = "google-cloud-pubsublite" %}
-{% set version = "1.8.1" %}
+{% set version = "1.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-pubsublite-{{ version }}.tar.gz
-  sha256: 923d956e8ff23b09d0ec930db5079e271c8d68e429e7a005feac623694c000b9
+  sha256: 30fd71196f89c4ef4308c0d474b40996fb526034d79a0e65497c3335f83331b2
 
 build:
   noarch: python
