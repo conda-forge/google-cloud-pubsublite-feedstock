@@ -1,5 +1,5 @@
 {% set name = "google-cloud-pubsublite" %}
-{% set version = "1.8.3" %}
+{% set version = "1.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-pubsublite-{{ version }}.tar.gz
-  sha256: 8b36d73c3e71f4e4211c10b34ab8dc1bc74d17ca51bde450433a8ce81eacf9c6
+  sha256: fd4578b9ed0eaa49e0fe8a6165bc22cdb60bcbbcc84980b2cc9c4193930cd30f
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - google-cloud-pubsub >=2.10.0,<3.0.0dev
     - grpcio >=1.38.1,<2.0.0dev
     - grpcio-status >=1.38.1,<2.0.0dev
-    - overrides >=6.0.1,<7.0.0
+    - overrides >=6.0.1,<8.0.0
     - google-api-core >=1.33.2,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*
 
 test:
